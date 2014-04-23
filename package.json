@@ -1,0 +1,29 @@
+{
+  "name": "blitz-runner",
+  "version": "0.0.1",
+  "description": "Run blitz.io type operations directly rather than via their service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eyethereal/blitz-runner.git"
+  },
+  "keywords": [
+    "blitz.io",
+    "http",
+    "load"
+  ],
+  "author": "Tom Seago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyethereal/blitz-runner/issues"
+  },
+  "dependencies": {
+    "commander": "~2.2.0",
+    "cli-table": "~0.3.0",
+    "colors": "~0.6.2",
+    "progress": "~1.1.5"
+  }
+}
